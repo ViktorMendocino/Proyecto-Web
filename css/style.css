@@ -1,0 +1,10 @@
+.cuerpo { background-color: black;
+}
+.titulo{ color: rgb(235, 229, 230) ;}
+.encabezado{ background-color: rgb(40, 141, 40); width: auto;height: 70px;padding: 5px 5px ;}
+
+.titulo2{ margin: 50px 50px 50px 50px; display: inline;}
+.navegador{ margin-left: 700px;margin-top:  25px;}
+.bloques{  width: 100px;height: 100px;background-color: chartreuse;margin: 20px;}
+.piedepagina{background-color: chartreuse; width:100%; height: 50px;padding-top: 10px;padding-left: 20px;}
+.categorias{margin-left: 20px}
