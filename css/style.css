@@ -1,10 +1,67 @@
-.cuerpo { background-color: black;
-}
-.titulo{ color: rgb(235, 229, 230) ;}
-.encabezado{ background-color: rgb(40, 141, 40); width: auto;height: 70px;padding: 5px 5px ;}
 
-.titulo2{ margin: 50px 50px 50px 50px; display: inline;}
-.navegador{ margin-left: 700px;margin-top:  25px;}
-.bloques{  width: 100px;height: 100px;background-color: chartreuse;margin: 20px;}
-.piedepagina{background-color: chartreuse; width:100%; height: 50px;padding-top: 10px;padding-left: 20px;}
-.categorias{margin-left: 20px}
+*{box-sizing:border-box ;}
+
+.cuerpo { background-color: rgb(7, 2, 2);
+}
+.titulo{ color: rgb(235, 229, 230) 
+    ; ;margin-left: 16%;
+
+}
+.encabezado{ 
+    background-color: chartreuse; 
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+}
+h3 {color: rgb(2, 6, 8);}
+.titulo2{ 
+display: inline-block ;
+padding-right: 55px
+;}
+.navegador{ 
+    width: 95%;
+    display: flex;
+flex-direction: row-reverse;}
+
+.bloques{  width: 100px;
+height: 100px;
+background-color: chartreuse;
+margin: 20px ;
+text-align: center;
+box-shadow: 5px 5px 10px greenyellow , 10px 10px 10px rgb(132, 206, 20);
+border-radius: 30%;padding: 10px;
+}
+.piedepagina{
+    background-color: chartreuse;
+     width:100%;
+     height: 10%
+     ;padding-top: 10px;
+     padding-right: 20px;
+     padding-bottom: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.lista1{
+    width: 350px;
+    height: 200px; 
+    color: azure;
+    overflow: auto;
+    text-align: center;margin-left: 15%
+    ;}
+
+.container{border-radius: 50%;
+    margin-left: 5%;
+    width: fit-content;
+    overflow: hidden;
+    background-color: aliceblue
+    ;}
+
+    .contenedor{
+        margin-top: 8%;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: row;
+        
+    }
